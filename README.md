@@ -18,26 +18,6 @@ In this project, I perform sentiment analysis on tweets related to the COVID-19 
 - **Scikit-learn**, **XGBoost**: For machine learning modelling.  
 - **Jupyter Notebook**: Main environment for development and analysis.
 
-## 📊 Key Steps & Methods  
-1. **Data Loading & Inspection**: Load the tweet dataset and inspect for missing values, duplicates, etc.  
-2. **Data Preprocessing**: Clean tweet text — remove URLs, mentions, punctuation, stop words, convert to lowercase.  
-3. **Exploratory Data Analysis (EDA)**:  
-   - Visualize distribution of sentiments.  
-   - Generate word clouds for each sentiment class.  
-   - Track sentiment trend over time.  
-   - Identify most frequent hashtags and keywords.  
-4. **Feature Engineering**:  
-   - Use techniques such as TF-IDF or count vectorisation to convert text into numeric features.  
-   - Possibly add features like tweet length, number of hashtags, etc.  
-5. **Model Building & Evaluation**:  
-   - Split data into training and testing sets.  
-   - Build multiple models (Logistic Regression, Decision Tree, XGBoost, KNN, SVM).  
-   - Compare models using metrics such as accuracy, precision, recall, F1-score.  
-6. **Results & Interpretation**:  
-   - Choose the best performing model.  
-   - Interpret features and resist overfitting.  
-   - Provide insights on how sentiment varied and what keywords/topics drove positive/negative tweets.
-
 ## ✅ Findings & Insights (Summary)  
 - The dataset leaned more toward *neutral* and *negative* sentiments during key pandemic peaks.  
 - Tweets with mentions of terms like “lockdown”, “cases”, “fear” often aligned with negative sentiment.  
