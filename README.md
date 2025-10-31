@@ -1,5 +1,5 @@
 # Sentiment Analysis of COVID-19 Tweets  
-*A data analytics capstone project by Zara (Aafreen)*
+*A data analytics capstone project*
 
 ## 🧠 Project Overview  
 In this project, I perform sentiment analysis on tweets related to the COVID-19 pandemic. The main goal is to classify tweets as **positive**, **negative**, or **neutral** and uncover insights into how public sentiment evolved during the crisis.
